@@ -1,0 +1,95 @@
+body {
+  margin: 0px;
+}
+
+/* Стилизация ссылок */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8a2be2;
+}
+
+/* Верхнее меню */
+header {
+  display: flex;
+  width: 100%;
+  background-color: #043441;
+  font-size: 30px;
+  position: fixed;
+  top: 0px;
+  justify-content: center;
+}
+
+header a {
+  margin: 6px;
+  display: block;
+  padding: 16px 10px;
+  box-shadow: 0 10px 25px rgba(72, 72, 72, .1);
+  border-radius: 10px;
+}
+
+
+/* Боковое меню */
+nav {
+  width: 160px;
+  height: 100%;
+  background-color: #043441;
+  box-shadow: 0 10px 25px rgba(72, 72, 72, .1);
+  position: fixed;
+  margin: 0 auto;
+  top: 79px;
+}
+
+nav a {
+  display: block;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 10px 25px rgba(72, 72, 72, .1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Основной контент */
+.box {
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(72, 72, 72, .1);
+  margin-top: 95px;
+  margin-left: 176px;
+  margin-right: 16px;
+}
+
+/* Заголовок */
+.top {
+  margin: 0px;
+  padding: 10px;
+}
+
+/* Фоновая фотка */
+.apple {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+/* Текст */
+.text {
+  margin-top: 25px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.end {
+  margin-bottom: 0px;
+  padding-bottom: 22px;
+}
